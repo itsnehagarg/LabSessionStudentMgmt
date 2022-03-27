@@ -32,4 +32,17 @@ public class Student {
 	
 	@Column(name="country")
 	private String country;
+	
+	public Student(String firstName, String lastName, String course, String country) {
+		
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.course = course;
+		this.country = country;
+	}
+	
+	public Student()
+	{
+		
+	}
 }
