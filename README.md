@@ -1,7 +1,7 @@
 # LabSessionStudentMgmt
 
-1. create spring boot 
-2. pom.xml
+1. Create spring boot project
+2. Add dependencies to pom.xml
 3. application.properties -> datasource
 4. Entity classes
 5. Service layer 
